@@ -46,14 +46,14 @@ var suite = vows.describe('resultdelta').addBatch(
                    {id: 3, foo: 'three'},
                    {id: 42, foo: 'forty-two'},
                    {id: 43, foo: 'forty-three'},
-                   {id: 44, foo: 'forty-three'},
+                   {id: 44, foo: 'forty-four'},
                ], [{id: 1, foo: 'one'},
                    {id: 2, foo: 'two'},
                    {id: 3, foo: 'crowd'},
                    {id: 4, foo: 'four'},
                    {id: 42, foo: 'meaning of life'},
                    {id: 100, foo: 'one hundred'},
-                   {id: 44, foo: 'forty-three'},
+                   {id: 44, foo: 'forty-four'},
                ])
     , "check delta"
     : function(topic) { assert.deepEqual(topic, [{ op: 'delete', pos: 0, val: { id: 0, foo: 'zero' } },

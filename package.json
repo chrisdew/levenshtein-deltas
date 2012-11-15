@@ -1,7 +1,7 @@
 {
-  "name": "levenshtein",
-  "description": "A mudule for working out levenshtein deltas.",
-  "version": "0.1.0",
+  "name": "levenshtein-deltas",
+  "description": "A module for working out levenshtein deltas.",
+  "version": "0.1.4",
   "maintainers": [
     {
       "name": "Chris Dew",
@@ -9,7 +9,7 @@
     }
   ],
   "bugs": {
-    "web": "http://github.com/chrisdew/levenshtein/issues"
+    "web": "http://github.com/chrisdew/levenshtein-deltas/issues"
   },
   "licenses": [
     {
@@ -19,7 +19,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "http://github.com/chrisdew/levenshtein"
+      "url": "http://github.com/chrisdew/levenshtein-deltas"
     }
   ],
   "main": "index.js",
