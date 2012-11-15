@@ -180,5 +180,3 @@ var suite = vows.describe('levenshtein').addBatch(
 
 suite.export(module);
 
-
-
